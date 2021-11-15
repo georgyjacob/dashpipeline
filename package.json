@@ -1,13 +1,13 @@
 {
-  "name": "template-node-typescript",
+  "name": "dashpipeline",
   "version": "1.0.0",
   "org": "my-org",
-  "description": "Code pattern for starting a typescript-based microservice",
+  "description": "pipeline for dashapp",
   "main": "index.js",
   "config": {
     "protocol": "http",
     "host": "localhost",
-    "port": 3000,
+    "port": 8050,
     "contextRoot": ""
   },
   "pact": {
@@ -79,6 +79,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ibm-garage-cloud/template-node-typescript.git"
+    "url": "https://github.com/georgyjacob/dashpipeline.git"
   }
 }
